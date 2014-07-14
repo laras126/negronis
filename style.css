@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url(http://i1.wp.com/punchdrink.com/wp-content/uploads/2013/10/Kingston-Negroni_Thumbnail.jpg);
+		background-size: cover;
+		background-position: 50% 50%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	background-color: maroon;
+	color: white;
+	font-family: 'Raleway';
+	font-size: 0.7em;
+	line-height: 1.4;
+
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  color: #F5D969;
+}
+
+.header {
+}
+
+h1, h2, h3, h4, h5, h6, .tagline {
+	font-family: 'Raleway';
+}
+
+h1 {
+	font-weight: 700;
+	margin-top: 0;
+}
+
+	.page-title {
+		text-shadow: 0px 4px 3px rgba(0,0,0,1),
+             0px 8px 6px rgba(0,0,0,0.6),
+             0px 12px 11px rgba(0,0,0,0.6);
+    font-size: 3.2em;
+	}
+
+	.section-title {
+		font-size: 2.4em;
+	}
+
+	.special {
+		border-bottom: 2px solid #999;
+	}
+	
+p {
+	font-size: 1.6em;
+	font-weight: 400;
+}
+	
+	.disclaimer {
+    /* font-size: 1.2em; */	
+  }
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+.content {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 2.4em;
+	margin: 2.4em 0;
+}
+
+label {
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+}
+
+input[type="text"] {
+	border-radius: 3px;
+	font-size: 1.6em;
+	border: none;
+	padding: 1em;
+	border: 2px solid #999;
+	display: block;
+	margin: 0.6em 0;
+	width: 100%;
+  color: #111;
+}
+
+input[type="text"]:focus {
+	background-color: #fefefe;
+	border: 2px solid #111;	
+	outline: 0;		
+}
+
+.alert {
+  padding: 0.6em;
+}
+
+.success {
+  border: 3px solid #70D061;
+  background: rgba(112, 208, 97, 0.3);
+}
+
+.notice {
+  border: 3px solid #DEBE5F;
+  background: rgba(222, 190, 85, 0.3);
+}
+
+.warning {
+  border: 3px solid #990202;
+  background: rgba(60, 20, 20, 1);
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+@media(min-width: 600px) {
+
+	body {
+		font-size: 0.9em;
+	}
+
+	h1 {
+		margin-top: 0.3em;
+	}
+
+	.content {
+		padding: 2.4em;
+	}
+
+	.page-title {
+		font-size: 4.8em;
+	}
+
+	.section-title {
+		font-size: 2.4em;
+	}
+
+
+}
+
+@media(min-width: 800px) {
+	
+	body {
+		font-size: 1em;
+	}
+
+	.wrapper {
+		max-width: 80%
+	}
+
+	/* Grid comes in herrrr */
+
+	.sixcol {
+		float: left;
+		width: 48%;
+		margin-left: 4%;
+	}
+
+	.first {
+		margin-left: 0;
+	}
+
+	.last {
+
+	}
+}
